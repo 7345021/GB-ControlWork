@@ -14,3 +14,13 @@ Console.WriteLine(myString[7]);
 Console.WriteLine();
 int L=3;
 Console.WriteLine("Элементы массива с количеством символов <=3: ");
+for (int i = 0; i < myString.Length; i++)
+{
+    int result=myString[i].Length;
+    if(result<=L)
+    {
+        
+        Console.WriteLine($" {myString[i]} ");
+    }
+}   
+
